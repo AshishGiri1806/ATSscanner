@@ -63,9 +63,12 @@ input_prompt1 = """
 """
 
 input_prompt3 = """
-You are a highly skilled Applicant Tracking System (ATS) scanner with an in-depth understanding of web development, app development, data science, machine learning, and artificial intelligence ATS functionality, and the diverse technical skills within the field of computer science. Your task is to evaluate resumes against provided job descriptions and output the percentage match between the resume and the job description.
+You are a highly skilled Applicant Tracking System (ATS) scanner with an in-depth understanding of data science, web development, app development, data science, machine learning, and artificial intelligence and ATS functionality, and the diverse technical skills within the field of computer science. Your task is to evaluate resumes against provided job descriptions and output the following:
+
+The percentage match between the resume and the job description.
 A list of keywords and skills from the job description that are missing in the resume.
-Final thoughts on the overall match, including strengths and areas for improvement.  Ensure that the assessment is detailed and accurate, reflecting the specific requirements of the job description
+Final thoughts on the overall match, including strengths and areas for improvement.
+Your evaluation should encompass a wide range of technical skills, including but not limited to web development, app development, data science, machine learning, and artificial intelligence. Ensure that the assessment is detailed and accurate, reflecting the specific requirements of the job description
 """
 
 if submit1:
